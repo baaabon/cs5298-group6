@@ -1,24 +1,97 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.27
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling typenum v1.20.1
+   Compiling cfg-if v1.0.5
+   Compiling paste v1.0.15
+   Compiling const-oid v0.10.3
+   Compiling ruint v1.21.1
+   Compiling unicode-segmentation v1.13.3
+   Compiling unicode-xid v0.2.6
+   Compiling foldhash v0.2.0
+   Compiling cpufeatures v0.2.17
+   Compiling ruint-macro v1.2.1
+   Compiling find-msvc-tools v0.1.15
+   Compiling shlex v2.0.1
+   Compiling heck v0.5.0
+   Compiling keccak v0.2.2
+   Compiling cc v1.11.1
+   Compiling convert_case v0.10.0
+   Compiling equivalent v1.0.3
+   Compiling dunce v1.0.5
+   Compiling thiserror v2.0.21
+   Compiling cpufeatures v0.3.1
+   Compiling hybrid-array v0.4.15
+   Compiling itoa v1.0.19
+   Compiling bs58 v0.5.1
+   Compiling version_check v0.9.5
+   Compiling block-buffer v0.12.1
+   Compiling crypto-common v0.2.2
+   Compiling constant_time_eq v0.4.2
+   Compiling arrayvec v0.7.8
+   Compiling zerocopy v0.8.63
+   Compiling ahash v0.8.12
+   Compiling scopeguard v1.2.0
+   Compiling base32 v0.5.1
+   Compiling allocator-api2 v0.4.0
+   Compiling digest v0.11.3
+   Compiling lock_api v0.4.14
+   Compiling once_cell v1.21.4
+   Compiling club-reconcile v0.1.0 (/mnt/e/cityu/semesterA/Blockchain and Web3.0 Security/project/cs5298-group6)
 warning: unstable feature specified for `-Ctarget-feature`: `atomics`
   |
   = note: this feature is not stably supported; its behavior can change in the future
 
+   Compiling talc v5.1.1
+   Compiling sha3 v0.11.0
+   Compiling sha2 v0.11.1
 warning: `club-reconcile` (lib) generated 1 warning
+   Compiling blake3 v1.8.7
+   Compiling syn v3.0.10
+   Compiling syn v2.0.119
+   Compiling proc-macro-error-attr3 v3.0.1
+   Compiling const-hex v1.19.3
+   Compiling hashbrown v0.17.1
+   Compiling cb58 v0.0.3
+   Compiling indexmap v2.14.2
+   Compiling macro-string v0.2.0
+   Compiling syn-solidity v1.7.3
+   Compiling proc-macro-error3 v3.0.1
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.21
+   Compiling derive_more-impl v2.1.1
+   Compiling typed-builder-macro v0.23.2
+   Compiling alloy-sol-macro-input v1.7.3
+   Compiling alloy-sol-macro-expander v1.7.3
+   Compiling cobs v0.3.0
+   Compiling typed-builder v0.23.2
+   Compiling bytes v1.12.1
+   Compiling postcard v1.1.3
+   Compiling derive_more v2.1.1
+   Compiling alloy-primitives v1.7.3
+   Compiling alloy-sol-macro v1.7.3
+   Compiling alloy-sol-types v1.7.3
+   Compiling lyquor-primitives v0.8.4 (/home/ymx/.shakenup/ldk/primitives)
+   Compiling lyquid-proc v0.8.4 (/home/ymx/.shakenup/ldk/lyquid/proc)
 warning: `lyquor-primitives` (lib) generated 1 warning (1 duplicate)
+   Compiling lyquid v0.8.4 (/home/ymx/.shakenup/ldk/lyquid)
 warning: `lyquid` (lib) generated 1 warning (1 duplicate)
-   Compiling club-reconcile-lyquid v0.1.0 (/tmp/tmp.Kf8d9Y9i8n)
+   Compiling club-reconcile-lyquid v0.1.0 (/tmp/tmp.nWwDIyBaa3)
 warning: `club-reconcile-lyquid` (lib) generated 1 warning (1 duplicate)
-    Finished `release` profile [optimized] target(s) in 5.24s
-2026-11-11T11:37:55.944003Z  INFO ThreadId(01) shaker::build: Built club-reconcile-lyquid with LDK 0.8.4
-2026-11-11T11:37:55.967970Z  INFO ThreadId(01) shaker: Pushed image to node endpoint ws://127.0.0.1:10087/ws
-2026-11-11T11:37:55.967997Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.image_hash = sha256:becbbd9f47c2ed9d22e2f5c4cc074c76cd50734a8671dbad2e6a890892df24fd
-2026-11-11T11:37:55.968000Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.os_version = 0.8
-2026-11-11T11:37:55.968011Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.input = 0000000000000000000000009fe46736679d2d9a65f0992f2272de9f3c7fa6e00000000000000000000000000000000000000000000000000000000000000000becbbd9f47c2ed9d22e2f5c4cc074c76cd50734a8671dbad2e6a890892df24fd00000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000001a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002a30786633394664366535316161643838463646346365366142383832373237396366664662393232363600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002a30783730393937393730433531383132646333413031304337643031623530653064313764633739433800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002a30783343343443644464423661393030666132623538356464323939653033643132464134323933424300000000000000000000000000000000000000000000
-2026-11-11T11:37:55.973863Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.address = 0x0165878A594ca255338adfa4d48449f69242Eb8F
-2026-11-11T11:37:56.032327Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.lyquid_id = Lyquid-wsd6v4xjliqgjrcaiikuafrjmaho4q4hqiwqa
-2026-11-11T11:37:56.032445Z  INFO ThreadId(01) shaker: created Lyquid-wsd6v4xjliqgjrcaiikuafrjmaho4q4hqiwqa => 0x0165878A594ca255338adfa4d48449f69242Eb8F
+    Finished `release` profile [optimized] target(s) in 23.83s
+2026-11-11T12:09:08.614503Z  INFO ThreadId(01) shaker::build: Built club-reconcile-lyquid with LDK 0.8.4
+2026-11-11T12:09:08.639258Z  INFO ThreadId(01) shaker: Pushed image to node endpoint ws://127.0.0.1:10087/ws
+2026-11-11T12:09:08.639297Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.image_hash = sha256:a0504a46265b51b4f7b054ab518006763fd442efb0f0f399cc01cd0717d3e008
+2026-11-11T12:09:08.639301Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.os_version = 0.8
+2026-11-11T12:09:08.639326Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.input = 0000000000000000000000009fe46736679d2d9a65f0992f2272de9f3c7fa6e00000000000000000000000000000000000000000000000000000000000000000a0504a46265b51b4f7b054ab518006763fd442efb0f0f399cc01cd0717d3e00800000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000001a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002a30786633394664366535316161643838463646346365366142383832373237396366664662393232363600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002a30783730393937393730433531383132646333413031304337643031623530653064313764633739433800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002a30783343343443644464423661393030666132623538356464323939653033643132464134323933424300000000000000000000000000000000000000000000
+2026-11-11T12:09:08.645829Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.address = 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6
+2026-11-11T12:09:08.704565Z  INFO ThreadId(01) shaker::deploy: club-reconcile-lyquid.lyquid_id = Lyquid-zz2juejwa3xj5cx6jqespjhlzzr7bjchoi7aa
+2026-11-11T12:09:08.704651Z  INFO ThreadId(01) shaker: created Lyquid-zz2juejwa3xj5cx6jqespjhlzzr7bjchoi7aa => 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6
 Status: created
-Lyquid ID: Lyquid-wsd6v4xjliqgjrcaiikuafrjmaho4q4hqiwqa
-Contract: 0x0165878A594ca255338adfa4d48449f69242Eb8F
+Lyquid ID: Lyquid-zz2juejwa3xj5cx6jqespjhlzzr7bjchoi7aa
+Contract: 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6
 Platform Version: 0.8
 A + B: PENDING
 A + B + C: PUBLISHED

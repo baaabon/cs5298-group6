@@ -1,23 +1,22 @@
-   Compiling club-reconcile v0.1.0 (D:\HuaweiMoveData\Users\86137\Documents\ChatGPT\chain p)
-    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.31s
-     Running unittests src\lib.rs (D:\HuaweiMoveData\Users\86137\Documents\ChatGPT\chain p\target\debug\deps\club_reconcile-3cf71b421fcf7bf2.exe)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running unittests src\lib.rs (E:\cityu\semesterA\Blockchain and Web3.0 Security\project\cs5298-group6\target\debug\deps\club_reconcile-3cf71b421fcf7bf2.exe)
 
 running 0 tests
 
 test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
-     Running unittests src\main.rs (D:\HuaweiMoveData\Users\86137\Documents\ChatGPT\chain p\target\debug\deps\club_reconcile-d83f815c5535f070.exe)
+     Running unittests src\main.rs (E:\cityu\semesterA\Blockchain and Web3.0 Security\project\cs5298-group6\target\debug\deps\club_reconcile-d83f815c5535f070.exe)
 
 running 0 tests
 
 test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
-     Running tests\reconciliation.rs (D:\HuaweiMoveData\Users\86137\Documents\ChatGPT\chain p\target\debug\deps\reconciliation-a78b6280f7f9e8cc.exe)
+     Running tests\reconciliation.rs (E:\cityu\semesterA\Blockchain and Web3.0 Security\project\cs5298-group6\target\debug\deps\reconciliation-a78b6280f7f9e8cc.exe)
 
 running 3 tests
-test same_transfers_in_different_order_produce_same_snapshot ... ok
 test duplicate_vote_cannot_create_quorum ... ok
 test rejects_wrong_anchor_and_duplicate_event ... ok
+test same_transfers_in_different_order_produce_same_snapshot ... ok
 
 test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 

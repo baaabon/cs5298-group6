@@ -35,7 +35,7 @@ The demo uses chain ID `31337`, blocks `100–103`, a test token ending in `01`,
 Use Rust 1.85 or later. The CLI uses only the Rust standard library and runs offline. In Windows PowerShell, enter the repository and run:
 
 ```powershell
-Set-Location -LiteralPath 'D:\HuaweiMoveData\Users\86137\Documents\ChatGPT\chain p'
+Set-Location -LiteralPath 'E:\cityu\semesterA\Blockchain and Web3.0 Security\project\cs5298-group6'
 cargo test --locked --offline
 & .\scripts\e2e.ps1
 ```
@@ -69,7 +69,7 @@ The script starts Anvil and deploys the `bartender` registry. Wait for `Lyquor l
 Enter the repository. The command derives three accounts from Anvil's public development mnemonic for use on the local devnet. Set `LYQUOR_LDK_DIR` if your SDK source directory differs from `~/.shakenup/ldk`.
 
 ```bash
-cd '/mnt/d/HuaweiMoveData/Users/86137/Documents/ChatGPT/chain p'
+cd '/mnt/e/cityu/semesterA/Blockchain and Web3.0 Security/project/cs5298-group6'
 
 (
   set -euo pipefail
@@ -82,7 +82,7 @@ cd '/mnt/d/HuaweiMoveData/Users/86137/Documents/ChatGPT/chain p'
 )
 ```
 
-This writes `evidence/devnet-rerun.txt`. The [original successful run](evidence/devnet-run.txt) remains available for comparison. Contract addresses and Lyquid IDs can differ between deployments. If Shaker reports `Lyquid ID: pending`, the script stops. Check the localnet node's `lyquor.log` for discovery and hosting events.
+This writes `evidence/devnet-rerun.txt`. The [verified run from the E-drive checkout](evidence/devnet-run.txt) is available for comparison. Contract addresses and Lyquid IDs can differ between deployments. If Shaker reports `Lyquid ID: pending`, the script stops. Check the localnet node's `lyquor.log` for discovery and hosting events.
 
 | Step | What the script does | Verified result |
 |---|---|---|
@@ -106,3 +106,5 @@ The first line of the snapshot encodes `version:chain ID:token:sender wallet:fir
 ## Verification scope
 
 The single-node experiment verified deployment, instance computation, authenticated voting by three test accounts, and publication after two matching votes. The transfers and block anchor were synthetic. The protocol relies on authorized accounts to submit computed results. Two signers using the same incomplete export can publish an incorrect summary. Live log ingestion, block finality verification, and invoice matching are outside the current implementation.
+
+Historical logs may contain <original-project-root-redacted> in place of an original local checkout path. Their execution output is preserved.

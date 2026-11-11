@@ -1,3 +1,5 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
+     Running `E:\cityu\semesterA\Blockchain and Web3.0 Security\project\cs5298-group6\target\debug\club-reconcile.exe demo "E:\cityu\semesterA\Blockchain and Web3.0 Security\project\cs5298-group6\fixtures"`
 Club reimbursement reconciliation | fixture-based simulation
 Member A (complete):
 v1:31337:0x0000000000000000000000000000000000000001:0x0000000000000000000000000000000000000002:100:103:0x0000000000000000000000000000000000000000000000000000000000000067

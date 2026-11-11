@@ -22,7 +22,7 @@ Run the Rust tests and the CLI demo with the README commands. For the local devn
 | Third vote from a complete export in reverse order | PUBLISHED. The published totals were 45 and 70, with payment counts of two and one. |
 | Rust regression tests | Three passed, covering input order, wrong anchor, duplicate events and repeated or conflicting votes. |
 
-Evidence: evidence/devnet-run.txt, evidence/cli-run.txt and evidence/rust-tests.txt. The observed deployment used one local Lyquor node and three test signer accounts. The deployed Lyquid ID was Lyquid-wsd6v4xjliqgjrcaiikuafrjmaho4q4hqiwqa.
+Evidence: evidence/devnet-run.txt, evidence/cli-run.txt and evidence/rust-tests.txt. The observed deployment used one local Lyquor node and three test signer accounts. The deployed Lyquid ID was Lyquid-zz2juejwa3xj5cx6jqespjhlzzr7bjchoi7aa.
 
 ## Limitations and next steps
 
